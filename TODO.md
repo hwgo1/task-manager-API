@@ -1,0 +1,5 @@
+- [X] criar server
+- [X] fazer as rotas
+- [] criar o POST
+- [] criar o bando de dados
+- [] criar o GET

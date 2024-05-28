@@ -1,0 +1,23 @@
+{
+  "name": "task-crud",
+  "version": "1.0.0",
+  "description": "Esse é o projeto referente ao desafio 01 da trilha de NodeJS da Rocketseat. O objetivo deste desafio é criar uma aplicação CRUD para gerenciar tasks.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js",
+    "commit": "git-cz"
+  },
+  "keywords": [],
+  "author": "Hugo Henrique",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
